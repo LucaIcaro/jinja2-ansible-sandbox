@@ -1,0 +1,9 @@
+---
+# variables for the task
+results_folder: /home/ansible 
+role_folder: /home/ansible 
+default_user: ansible
+default_group: ansible
+
+# variables for the test
+test_ora: "06:30"
