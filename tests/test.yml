@@ -2,6 +2,6 @@
 - hosts: localhost
   remote_user: root
   roles:
-    - { role : '{{ role_folder }}/jinja2-sandbox' }
+    - { role : '{{ role_folder }}/jinja2-ansible-sandbox' }
 #    - jinja2-sandbox
 

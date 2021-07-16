@@ -4,8 +4,8 @@
 - name:            Play with Jinja2
   template:
     src:           jinja2.txt.j2
-    dest:          {{ results_folder }}/results.txt
-    owner:         {{ default_user }}
-    group:         {{ default_group }}
-    mode:          0644
+    dest:          "{{ results_folder }}/results.txt"
+    # owner:         {{ default_user }}
+    # group:         {{ default_group }}
+    mode:          "0644"
 

@@ -1,7 +1,7 @@
 ---
 # variables for the task
-results_folder: /home/ansible 
 role_folder: /home/ansible 
+results_folder: "{{ role_folder }}"
 default_user: ansible
 default_group: ansible
 
